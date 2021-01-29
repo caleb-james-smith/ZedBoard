@@ -1,0 +1,10 @@
+#!/bin/sh
+# choose sleep to match song tempo :)
+delay=0.275
+while true;
+do
+        write_led 0xaa
+        sleep $delay
+        write_led 0x55
+        sleep $delay
+done

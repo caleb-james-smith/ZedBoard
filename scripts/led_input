@@ -1,0 +1,6 @@
+#!/bin/sh
+while true;
+do
+        value=`read_sw`
+        write_led $value
+done
