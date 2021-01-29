@@ -1,0 +1,2 @@
+#!/bin/sh
+write_led 0xFF
